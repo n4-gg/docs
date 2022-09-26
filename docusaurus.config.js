@@ -58,7 +58,7 @@ const config = {
       announcementBar: {
         id: "extra_info",
         content:
-          "NOTE: Some written features for v-queue may not be released yet.",
+          "NOTE: Some written features for the Queue may not be released yet.",
         backgroundColor: "#fafbfc",
         textColor: "#091E42",
         isCloseable: false,
@@ -105,11 +105,11 @@ const config = {
             items: [
               {
                 label: "FAQ",
-                to: "/docs/faq",
+                to: "/",
               },
               {
                 label: "Asset Escrow",
-                to: "/docs/escrow",
+                to: "/escrow",
               },
             ],
           },
