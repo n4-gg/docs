@@ -78,7 +78,8 @@ const config = {
             position: "left",
           },
           {
-            type: "localeDropdown",
+            href: "https://discord.gg/n4",
+            label: "Discord",
             position: "right",
           },
           {
@@ -136,6 +137,7 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
+        additionalLanguages: ["lua"],
       },
     }),
 };
