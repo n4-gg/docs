@@ -59,6 +59,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        id: "extra_info",
+        content:
+          "NOTE: Some written features for v-queue may not be released yet.",
+        backgroundColor: "#fafbfc",
+        textColor: "#091E42",
+        isCloseable: false,
+      },
       navbar: {
         title: "n4.gg",
         logo: {
