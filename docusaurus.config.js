@@ -67,6 +67,10 @@ const config = {
         textColor: "#091E42",
         isCloseable: false,
       },
+      colorMode: {
+        defaultMode: "dark",
+        respectPrefersColorScheme: true,
+      },
       navbar: {
         title: "n4.gg",
         logo: {
