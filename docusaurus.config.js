@@ -72,11 +72,19 @@ const config = {
             position: "left",
             label: "Docs",
           },
-          { to: "/changelog", label: "Changelog", position: "left" },
+          {
+            to: "/changelog",
+            label: "Changelog",
+            position: "left",
+          },
+          {
+            type: "localeDropdown",
+            position: "right",
+          },
           {
             href: "https://github.com/Vyast/n4-docs",
-            label: "GitHub",
             position: "right",
+            className: "header-github-link",
           },
         ],
       },
