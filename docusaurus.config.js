@@ -40,6 +40,9 @@ const config = {
             "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
+          blogTitle: "Changelog",
+          path: "changelog",
+          routeBasePath: "changelog",
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -69,7 +72,7 @@ const config = {
             position: "left",
             label: "Docs",
           },
-          { to: "/blog", label: "Changelog", position: "left" },
+          { to: "/changelog", label: "Changelog", position: "left" },
           {
             href: "https://github.com/Vyast/n4-docs",
             label: "GitHub",
@@ -111,11 +114,11 @@ const config = {
             items: [
               {
                 label: "Changelog",
-                to: "/blog",
+                to: "/changelog",
               },
               {
                 label: "Tebex Store",
-                to: "/blog",
+                to: "https://store.n4.gg",
               },
             ],
           },

@@ -30,7 +30,7 @@ export default function Home() {
 
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`Documentation Home | ${siteConfig.title}`}
       description="Official documentation site for all n4.gg FiveM Scripts including installation, setup, configuration guides, and more."
     >
       <HomepageHeader />
