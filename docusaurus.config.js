@@ -40,6 +40,8 @@ const config = {
           blogTitle: "Changelog",
           path: "changelog",
           routeBasePath: "changelog",
+          blogSidebarTitle: "Script Updates",
+          blogSidebarCount: "ALL",
           showReadingTime: true,
           editUrl: "https://github.com/Vyast/n4-docs/pulls",
         },
