@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "Vyast", // Usually your GitHub org/user name.
-  projectName: "n4-docs", // Usually your repo name.
+  organizationName: "n4-gg", // Usually your GitHub org/user name.
+  projectName: "docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -43,7 +43,7 @@ const config = {
           blogSidebarTitle: "Script Updates",
           blogSidebarCount: "ALL",
           showReadingTime: true,
-          editUrl: "https://github.com/Vyast/n4-docs/pulls",
+          editUrl: "https://github.com/n4-gg/docs/pulls",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -57,8 +57,7 @@ const config = {
     ({
       announcementBar: {
         id: "extra_info",
-        content:
-          "NOTE: Some written features for the Queue may not be released yet.",
+        content: "NOTE: Some written features for the Queue may not be released yet.",
         backgroundColor: "#fafbfc",
         textColor: "#091E42",
         isCloseable: false,
@@ -91,7 +90,7 @@ const config = {
             position: "right",
           },
           {
-            href: "https://github.com/Vyast/n4-docs",
+            href: "https://github.com/n4-gg/docs",
             position: "right",
             className: "header-github-link",
           },
@@ -122,7 +121,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/Vyast/n4-docs",
+                href: "https://github.com/n4-gg/docs",
               },
             ],
           },
