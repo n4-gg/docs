@@ -55,13 +55,14 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      announcementBar: {
-        id: "extra_info",
-        content: "NOTE: Some written features for the Queue may not be released yet.",
-        backgroundColor: "#fafbfc",
-        textColor: "#091E42",
-        isCloseable: false,
-      },
+      // announcementBar: {
+      //   id: "extra_info",
+      //   content:
+      //     "NOTE: Some written features for the Queue may not be released yet.",
+      //   backgroundColor: "#fafbfc",
+      //   textColor: "#091E42",
+      //   isCloseable: false,
+      // },
       colorMode: {
         defaultMode: "dark",
         respectPrefersColorScheme: true,
